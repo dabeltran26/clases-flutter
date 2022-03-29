@@ -2,8 +2,8 @@ import 'package:ejemplo1/cards_page.dart';
 import 'package:ejemplo1/slider_page.dart';
 import 'package:flutter/material.dart';
 import 'package:ejemplo1/alert_page.dart';
-
 import 'animate_container.dart';
+import 'imputs_page.dart';
 
 
 
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AnimateContainer(),
+      home: const InputsPage(),
     );
   }
 }
